@@ -3,6 +3,9 @@
 # 2 - marl task as complete
 # 3 - view tasks
 # 4 - Quit
+
+
+tasks =[]
 def add_task():
     #get task from user
     task = input("Enter task: ")
@@ -56,27 +59,29 @@ def view_tasks():
         
     
 
+def main():
+    message ="""
+    1 - add tasks to a list 
+    2 - mark task as complete
+    3 - view tasks
+    4 - Quit
+    """
+
+   
+    while True:
+        print(message)
+        choice = input ("Enter Your Choice:  ")
+
+        if choice =="1":        
+            add_task()
+        elif choice =="2":
+            mark_task_complete()
+        elif choice =="3":
+            view_tasks()
+        elif choice =="4":
+            break
+        else :
+            print("Invalid choice , please enter a number between 1 and 4")
 
 
-message ="""
-1 - add tasks to a list 
-2 - mark task as complete
-3 - view tasks
-4 - Quit
-"""
-
-tasks =[]
-while True:
-    print(message)
-    choice = input ("Enter Your Choice:  ")
-
-    if choice =="1":        
-        add_task()
-    elif choice =="2":
-        mark_task_complete()
-    elif choice =="3":
-        view_tasks()
-    elif choice =="4":
-        break
-    else :
-        print("Invalid choice , please enter a number between 1 and 4")
+main()
