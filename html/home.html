@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+
+    <style>
+        body {
+            font-family: sans-serif; 
+            line-height: 1.2;           
+        }
+
+        .container {
+            width: 800px;
+            position: relative;            
+            border: 2px solid black;
+        }
+        
+        .personal-img {
+            position: absolute;
+            width: 150px;
+            right: 0;
+            top: 1;
+        }
+
+        h1 {
+            text-align: center;
+            align-items: center;
+            margin: 0 auto;
+        }
+
+        .personal {
+            font-size: 30px;
+            margin-bottom: 5px;
+            margin-left: 15px;
+        }
+
+        .un-order {
+            font-size: 24px;
+            margin-left: 15px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: rgb(116, 116, 116);
+            color: aliceblue;
+        }
+
+        .social {
+            background-color: rgb(177, 177, 177);
+            font-size: 24px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* padding: 5px 0; */
+            padding-bottom: 10px;
+        }
+
+        .icon-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        .icon {
+            width: 50px;
+            border-radius: 50%;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Ahmed Gamal Helmy</h1>
+        <p class="personal">
+            <strong>my personal info</strong>
+        </p>
+        <img src="resorces/ph.jpg" alt="personal photo" class="personal-img">
+        <ul class="un-order">
+            <li><strong>Age:</strong> 22</li>
+            <li><strong>Address:</strong> Cairo</li>
+            <li><strong>Phones</strong></li>
+            <ol type="a">
+                <li>1111111</li>
+                <li>2222222</li>
+            </ol>
+            <li>
+                <a href="https://eng.asu.edu.eg/" target="_blank"> <strong> Ain Shams</strong> </a>
+            </li>
+            <li> <strong>Grad year: 2025</strong></li>
+            <li> <strong>Hobbies</strong></li>
+            <ol type="1">
+                <li>football</li>
+                <li>reading</li>
+            </ol>
+            <li>
+                <a href="mailto:ahmedgamalgamal1@gmail.com"><strong>Send email</strong> </a>
+            </li>
+            <li> <strong>About me:</strong></li>
+            <ul>
+                <li>
+                    <p>
+                        Dedicated and detail-oriented Computer and Systems Engineering student with a strong 
+                        foundation in software engineering, embedded systems, and testing. Experienced in various programming languages 
+                        and development tools. Proven ability to develop, test, and deploy software projects,
+                        with a particular interest in embedded systems and automation testing.
+                    </p>
+                </li>
+            </ul>
+        </ul>
+        <div class="social">
+            <p>My social profiles</p>
+            <div class="icon-container">
+                <a href="https://www.facebook.com/"><img src="resorces/facebook.png" alt="facebook icon" class="icon"></a>
+                <a href="https://x.com/?lang=ar"><img src="resorces/124021.png" alt="twitter icon" class="icon"></a>
+            </div>
+        </div>
+
+        <footer>
+            <p>Copyright &copy; Ahmed Helmy</p>
+        </footer>
+    </div>
+</body>
+</html>

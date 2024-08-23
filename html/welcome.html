@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+            text-align: center;
+            position: relative;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            font-size: 60px;
+            color: blue;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 42px;
+            margin-bottom: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        video {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .skip-intro {
+            
+            position: absolute;
+            
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 24px;
+            text-decoration: none;
+            color: #000;
+            background-color: #ccc;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 50px;
+        }
+        .skip-intro:hover {
+            background-color: #bbb;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to our page</h1>
+    <h2>Ahmed Gamal Helmy</h2>
+    <img src="resorces/welcome.jpg" alt="Welcome Image" style="width: 400px;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/YHFzr-akOas?si=Z9jAeRN648h61_gn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    <footer>
+        <a href="home.html" class="skip-intro">Skip Intro</a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,33 @@
+p{
+    color: red
+}
+
+div, p{
+    background-color: bisque;
+}
+
+p .mainClass{
+
+}
+
+div ~p{
+    font-size: 36px;
+    font-style: italic;
+}
+
+input.myClass{    
+    background-color: rgb(177, 177, 177);
+}
+
+span{
+    color: rgb(255, 255, 255);
+    background-color: rgb(28, 28, 51);
+}
+
+p.myClass{
+    font-size: 48px;
+    background-color: aquamarine;
+}
+#myDiv{    
+    background-color: rgb(38, 105, 44);
+}

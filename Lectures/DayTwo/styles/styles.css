@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap");
+
+/* p{
+    color:red;
+}
+
+h2{
+    color:chartreuse;
+} */
+
+/*
+
+selector {
+    property : value;
+    property : value;
+}
+
+
+*/
+
+/* p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    color:blue;
+}
+a{
+    color:brown;
+} */
+
+/* p, a{
+    color:green;
+} */
+
+/* #second-div{
+    color:red;
+}
+.my-div.omar{
+    color:aquamarine
+}
+.my-div{
+    color: yellow;
+} */
+
+/* div > p {
+    color:green;
+} */
+/* div p {
+    color:green;
+} */
+
+/* div + p{
+    color:brown;
+}
+div ~ p{
+    color:brown;
+} */
+
+/* .my-div .omar{
+    color:green;
+}
+.div-four{
+    background-color: green ;
+}
+.div-four .my-p{
+    color:white;
+} */
+
+/* p.omar{
+    color:salmon;
+}
+div.omar{
+    color:yellowgreen;
+} */
+
+/* [id]{
+    color:green;
+} */
+
+/* [target="_self"]{
+    color:chartreuse;
+} */
+
+/* [href^="https://"]{
+    color:brown;
+} */
+/* [href$=".com"]{
+    color:brown;
+} */
+
+/* [href*="google"]{
+    color: brown;
+} */
+
+/* body{
+    background-color: lightgreen;
+} */
+
+/* *{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* h2{
+    color:rgb(36,152,191)
+}
+h2{
+    color:rgba(36,152,191,0.5)
+}
+
+h2{
+    color:#2498bf;
+}
+
+h2{
+    color:hsl(9, 50% , 60% );
+}
+h2{
+    color:hsla(9, 50% , 60%, 0.5 );
+} */
+
+.container {
+  /* background-color: cadetblue;
+    background-image: url(https://t4.ftcdn.net/jpg/05/71/83/47/360_F_571834789_ujYbUnH190iUokdDhZq7GXeTBRgqYVwa.jpg);
+    background-repeat: no-repeat;
+    background-size:contain ; */
+  /* background-position: right center ;
+    background-position: center; */
+  /* background-position: -100px -200px ; */
+  font-size: 10px;
+}
+.container {
+  background-image: linear-gradient(
+    70deg,
+    rgb(0, 234, 255),
+    rgba(0, 234, 255, 0.2)
+  );
+  width: 500px;
+  border-radius: 20px;
+  height: 100vh;
+}
+
+/* units */
+/* absolute | relative
+
+absolute units ==> cm mm px in pt;
+
+relative units ==> % em rem vh vw
+
+*/
+/* div{
+ font-size: 20px;
+}
+
+body{
+    font-size: 35px;
+}
+html{
+    font-size: 35px;
+}
+p{
+    color: gray;
+    font-weight: bolder;
+    font-size: 25px ;
+    font-size: 0.5rem;
+    font-size: 0.5em;
+} */
+
+.div-four {
+  box-sizing: border-box;
+  background-color: blanchedalmond;
+  width: 300px;
+  height: 300px;
+  /* width:50vw;
+    width:50%; */
+  /* height: 500px;
+    height: 50vh; */
+  border: 5px solid gray;
+  border-radius: 7px;
+  padding-left: 30px;
+  padding: 20px 10px;
+  padding: 20px 10px 5px 8px;
+  padding: 35px;
+  margin: 20px 10px 5px 8px;
+}
+
+/* *{
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+} */
+
+/* font-families 
+serif - sans-serif - monospace  - cursive -fantasy */
+
+/* p.iti{
+    color: chocolate;
+    font-size: 20px;
+    /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+/* font-family: "Roboto", sans-serif;
+    font-weight: 400; 
+    font-style: oblique; 
+} */
+
+/* .my-con{
+    color:green;
+    font-size: 20px;
+}
+html{
+   font-size: 50px; 
+}
+.my-con p{
+    font-size: 0.5rem;
+} */
+
