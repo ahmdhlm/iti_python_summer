@@ -1,5 +1,5 @@
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,10 +8,10 @@
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Nike Store</title>
+    <title>Document</title>
 </head>
 
-<body>
+<body id="top">
     <nav id="nav">
         <div class="navTop">
             <div class="navItem">
@@ -185,6 +185,22 @@
                 alt="" class="nsImg">
         </div>
     </div>
+
+    <form id="registrationForm">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="example@iti.com" required>
+        <br>
+        
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" name="phone" placeholder="01xxxxxxxxx" required>
+        <br>
+      
+        <button type="submit">Register</button>
+      </form>
+      
+      <!-- This is for displaying form validation errors -->
+      <div id="formErrors" style="color: red;"></div>
+      
     <footer>
         <div class="footerLeft">
             <div class="footerMenu">
@@ -236,10 +252,16 @@
                 </div>
             </div>
             <div class="footerRightMenu">
-                <span class="copyright">@Lama Dev. All rights reserved. 2022.</span>
+                <span class="copyright">@Ahmed Helmy .2024.</span>
             </div>
         </div>
     </footer>
+
+
+    <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+        <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+      </a>
+      
     <script src="./app.js"></script>
 </body>
 
